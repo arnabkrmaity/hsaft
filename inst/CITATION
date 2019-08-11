@@ -1,0 +1,13 @@
+citHeader("To cite the 'hsaft' package in publications use:")
+
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date, perl = TRUE)
+vers <- paste("R package version", meta$Version)
+
+bibentry(bibtype = "Article",
+         title = "Bayesian Data Integration and Variable Selection for Pan-Cancer SurvivalPrediction using Protein Expression Data",
+         author = c(person("Maity", "Arnab Kumar"),
+                    person("Bhattacharya", "Anirban"),
+                    person("Mallick", "Bani K."),
+                    person("Baladandayuthapani", "Veerabhadran")),
+         journal = "Biometrics",
+         year = "2019")
