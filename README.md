@@ -1,1 +1,1 @@
-The updated version is here: https://cran.r-project.org/web/packages/PanCanVarSel/index.html
+The updated version is on R CRAN https://cran.r-project.org/web/packages/PanCanVarSel/index.html
